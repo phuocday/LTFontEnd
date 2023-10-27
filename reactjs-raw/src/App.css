@@ -52,10 +52,69 @@
     max-width: 25%;
     height: auto;
 }
-.anhTest{
-  width: 50px;
-  height: auto;
+body {
+  display: block;
+  margin: 8px;
 }
-#all_sp{
-  text-align: right;
+.wrapper {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #1b737d;
+  padding: 30px;
+  color: #fff;
+}
+.text-center {
+  text-align: center;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+user agent stylesheet
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.task {
+  position: relative;
+  background-color: #fffad6;
+  color: #000;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.task p {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+user agent stylesheet
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.task button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  background-color: #ff0000;
+  color: #fff;
+  height: 100%;
+  width: 40px;
 }
